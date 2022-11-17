@@ -8,8 +8,8 @@ terraform {
 }
 
 resource "pingfederate_oauth_access_token_manager" "example" {
-  instance_id = "example3"
-  name        = "example2"
+  instance_id = var.tokenmanagerId
+  name        = var.tokenmanagerId
   plugin_descriptor_ref {
     id = "org.sourceid.oauth20.token.plugin.impl.ReferenceBearerAccessTokenManagementPlugin"
   }

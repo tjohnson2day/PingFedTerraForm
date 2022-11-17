@@ -1,2 +1,4 @@
 variable "clientID" {
 }
+variable "tokenmanagerID" {
+}

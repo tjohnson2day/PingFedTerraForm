@@ -1,3 +1,0 @@
-output "secret" {
- value=vault_generic_secret.example.data_json
-}

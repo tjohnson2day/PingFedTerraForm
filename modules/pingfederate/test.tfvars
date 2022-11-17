@@ -1,1 +1,0 @@
-atm-name = "example10"

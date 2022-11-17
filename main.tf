@@ -38,6 +38,7 @@ module "oauth-clients" {
   depends_on = [module.secrets]
   clientId  = var.clientID
   secret = module.secrets.secret 
+  tokenmanagerId = var.tokenmanagerID
 }
 
 
