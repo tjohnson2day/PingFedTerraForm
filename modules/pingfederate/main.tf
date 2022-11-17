@@ -20,7 +20,7 @@ resource "pingfederate_oauth_access_token_manager" "example" {
     }
     fields {
       name  = "Token Lifetime"
-      value = "60"
+      value = "120"
     }
     fields {
       name  = "Lifetime Extension Policy"
