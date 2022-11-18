@@ -12,7 +12,7 @@ provider "vault" {
   # environment variables:
        address="http://127.0.0.1:8200"
      #  VAULT_ADDR="http://127.0.0.1:8200"
-        token="hvs.A7i1c1k6WC7rE0701Lj1LGOH"
+        token="hvs.KpfsV27kZEMeQ5a11V7ImCaP"
   #    - VAULT_CACERT
   #    - VAULT_CAPATH
   #    - etc.
